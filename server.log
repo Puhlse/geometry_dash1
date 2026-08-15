@@ -1,0 +1,7 @@
+127.0.0.1 - - [15/Aug/2026 09:06:52] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2026 09:06:52] "GET /src/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2026 09:06:52] "GET /src/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2026 09:06:52] "GET /src/js/render/Renderer.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2026 09:06:52] "GET /src/js/ui/UIManager.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2026 09:06:52] "GET /src/js/physics/Player.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Aug/2026 09:06:52] "GET /src/js/level/LevelGenerator.js HTTP/1.1" 200 -

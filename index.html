@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Dash Clone</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+
+        <div id="ui-layer">
+            <!-- Home Screen -->
+            <div id="screen-home" class="screen active">
+                <h1>Geometry Dash Clone</h1>
+                <div class="button-row">
+                    <button id="btn-icon-kit" class="btn">Icon Kit</button>
+                    <button id="btn-play-main" class="btn play-btn">Play</button>
+                    <button id="btn-construct" class="btn">Construct</button>
+                </div>
+            </div>
+
+            <!-- Icon Kit Screen -->
+            <div id="screen-icon-kit" class="screen">
+                <h2>Icon Kit (Coming Soon)</h2>
+                <button class="btn btn-back">Back</button>
+            </div>
+
+            <!-- Play Main Levels Screen -->
+            <div id="screen-main-levels" class="screen">
+                <h2>Main Levels</h2>
+                <div class="levels-container">
+                    <button id="btn-random-tab" class="btn big-btn">Random Tab</button>
+                </div>
+                <button class="btn btn-back">Back</button>
+            </div>
+
+            <!-- Construction Screen -->
+            <div id="screen-construct" class="screen">
+                <h2>Construction</h2>
+                <div class="button-row">
+                    <button id="btn-make-level" class="btn">Make a Level</button>
+                    <button id="btn-public-levels" class="btn">Other Public Levels</button>
+                </div>
+                <button class="btn btn-back">Back</button>
+            </div>
+
+            <!-- Make Level Screen -->
+            <div id="screen-make-level" class="screen">
+                <h2>Level Editor (Coming Soon)</h2>
+                <button class="btn btn-back">Back</button>
+            </div>
+
+            <!-- Public Levels Screen -->
+            <div id="screen-public-levels" class="screen">
+                <h2>Public Levels (Coming Soon)</h2>
+                <button class="btn btn-back">Back</button>
+            </div>
+
+            <!-- Game Over / Pause Screen -->
+            <div id="screen-game-over" class="screen">
+                <h2>Game Over!</h2>
+                <div class="stats">
+                    <p>Attempt <span id="attempt-count">1</span></p>
+                    <p>Progress: <span id="progress-percent">0</span>%</p>
+                </div>
+                <button id="btn-restart" class="btn">Restart</button>
+                <button class="btn btn-quit">Quit</button>
+            </div>
+
+            <div id="screen-pause" class="screen">
+                <h2>Paused</h2>
+                <button id="btn-resume" class="btn">Resume</button>
+                <button class="btn btn-quit">Quit</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
